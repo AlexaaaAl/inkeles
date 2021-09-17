@@ -1,0 +1,95 @@
+.body {
+  margin: 0 0 0 0;
+  background-color: #023d67;
+}
+
+main {
+  margin: 0 0 0 0;
+}
+
+.header {
+  margin: 30px 8% 30px 8%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.links {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+.links li {
+  margin: 0 30px 0 0;
+  list-style: none;
+  font: 2em sans-serif;
+  color: #FD6E12;
+}
+
+.content {
+  margin: 30px 8% 30px 8%;
+}
+
+.inkeles {
+  margin: 0;
+  background-color: #03749C;
+  padding: 100px 8% 100px 8%;
+  height: 450px;
+  /*width: 100%;*/
+}
+.inkeles h2 {
+  font: 3.2em sans-serif;
+  color: #023D67;
+}
+.inkeles h3 {
+  color: #FD6E12;
+}
+
+.about {
+  margin: 5% 15% 0 15%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 476px;
+  background-color: #D44205;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.about img {
+  height: auto;
+  width: 30%;
+  text-shadow: #FD6E12;
+}
+.about p {
+  margin: 3% 5% 3% 5%;
+  padding: 0;
+  font-size: 2.5em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  color: white;
+}
+
+.about_work {
+  margin: -5% 10% 0 10%;
+  height: 476px;
+  background-color: #FD6E12;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.about_work p {
+  padding: 3% 3% 3% 3%;
+  text-align: center;
+  font-size: 2em;
+}
+
+.prodoctorov {
+  margin: 5% 0 0 0;
+}

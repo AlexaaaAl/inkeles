@@ -1,0 +1,79 @@
+.body{
+    margin: 0 0 0 0;
+    background-color: rgb(2, 61, 103);
+}
+main{
+    margin: 0 0 0 0;
+}
+.header{
+    margin: 30px 8% 30px 8%;
+    display: -webkit-flex; 
+    display: flex;      
+    flex-direction: row ;
+    justify-content:space-between;
+}
+
+.links{
+    
+    display: -webkit-inline-flex;
+    display: inline-flex; 
+    li{
+        margin: 0 30px 0 0;
+        list-style: none;
+        font: 2em sans-serif;
+        color: #FD6E12;
+    }
+}
+.content{
+    margin: 30px 8% 30px 8%;
+}
+.inkeles{
+    margin: 0;
+    background-color: #03749C;
+    padding: 100px 8% 100px 8%;
+    height: 450px;
+    /*width: 100%;*/
+    h2{
+        font: 3.2em sans-serif;
+        color: #023D67;
+    }
+    h3{
+        color: #FD6E12;
+    }
+
+}
+.about{
+    margin: 5% 15% 0 15%;
+    align-items: center;
+    height: 476px;
+    background-color: #D44205;
+    display: flex;
+
+    img{
+        height: auto;
+        width: 30%;
+        text-shadow: #FD6E12;
+    }
+    p{
+        margin: 3% 5% 3% 5%;
+        padding: 0;
+        font-size: 2.5em;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        color: white;
+    }
+}
+.about_work{
+    margin: -5% 10% 0 10%;
+    height: 476px;
+    background-color: #FD6E12;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+    p{
+        padding: 3% 3% 3% 3%;
+        text-align: center;
+        font-size: 2em;
+    }
+}
+.prodoctorov{
+    margin: 5% 0 0 0;
+}
