@@ -1,9 +1,33 @@
+div{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
 .body{
     margin: 0 0 0 0;
     background-color: rgb(2, 61, 103);
 }
 main{
     margin: 0 0 0 0;
+}
+footer{
+    padding: 30px 8% 30px 8%;
+    margin: 0;
+    background-color: #FD6E12;
+    font: 2em sans-serif;
+    ul{
+        list-style-type: none;
+        color: #03749C;
+    }
+}
+.pd_widget_app {
+    text-align: right;
+    margin-bottom: 0;
+    clear: both;
+    /* width: 600px !important; */
+    font: 14px Arial,Verdana,sans-serif;
+    /* padding: 10px 10px 30px 10px; */
+    /* box-sizing: content-box; */
 }
 .header{
     margin: 30px 8% 30px 8%;
@@ -27,11 +51,16 @@ main{
 .content{
     margin: 30px 8% 30px 8%;
 }
+.psih{
+    font-size: 2.5em;
+    color: #5CD4EC;
+    text-align: center;
+}
 .inkeles{
     margin: 0;
     background-color: #03749C;
     padding: 100px 8% 100px 8%;
-    height: 450px;
+    /*height: 450px;*/
     /*width: 100%;*/
     h2{
         font: 3.2em sans-serif;
@@ -42,10 +71,11 @@ main{
     }
 
 }
+
 .about{
-    margin: 5% 15% 0 15%;
+    margin: 0% 0% 0 -10%;
     align-items: center;
-    height: 476px;
+    /*height: 576px;*/
     background-color: #D44205;
     display: flex;
 
@@ -56,24 +86,88 @@ main{
     }
     p{
         margin: 3% 5% 3% 5%;
-        padding: 0;
-        font-size: 2.5em;
+        padding: 0 0 0 10%;
+        font-size: 2em;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         text-align: center;
         color: white;
     }
 }
-.about_work{
-    margin: -5% 10% 0 10%;
-    height: 476px;
-    background-color: #FD6E12;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+.about_photo{
+    z-index: 2;
+}
+.about_me{
+    border-left: 10px solid #CC4109;
+    padding-left: 1em;
     p{
-        padding: 3% 3% 3% 3%;
-        text-align: center;
+        color:#5CD4EC;
         font-size: 2em;
+    }
+}
+.about_work{
+    margin: 0 ;
+    padding: 20px 10px 10px 10px;
+    background-color: #D44205;
+    svg{
+        margin-top: auto;
+        margin-bottom: auto;
+        height: 100%;
+    }
+    ul{
+        list-style: none;
+        li{
+            padding-left: 35px;
+            font-size: 1.5em;
+            position: relative;
+            color:white;
+        }
+        li::before{
+            content: '\2714';
+            position: absolute; top: 0; left: 0;
+            color: #5CD4EC;
+        }
     }
 }
 .prodoctorov{
     margin: 5% 0 0 0;
+}
+@media screen and (max-width: 1000px) {
+    .about{
+        p{
+            margin: 3% 5% 3% 5%;
+            padding: 0 0 0 10%;
+            font-size: 1.5em;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+            color: white;
+        }
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .hiden{
+        display: none;
+    }
+    
+.about{
+    margin: 0% 0% 0 0;
+    align-items: center;
+    /*height: 576px;*/
+    background-color: #D44205;
+    display: flex;
+
+    img{
+        height: auto;
+        width: 30%;
+        text-shadow: #FD6E12;
+    }
+    p{
+        margin: 3% 5% 3% 5%;
+        padding: 0 0 0 10%;
+        font-size: 1em;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        color: white;
+    }
+}
 }
