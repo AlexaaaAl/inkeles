@@ -6,7 +6,9 @@ div {
 
 .body {
   margin: 0 0 0 0;
-  background-color: #023d67;
+  background-image: url(../img/mini.png);
+  background-position: center;
+  /*background-color: rgb(2, 61, 103);*/
 }
 
 main {
@@ -35,7 +37,9 @@ footer ul {
 }
 
 .header {
-  margin: 30px 8% 30px 8%;
+  background-color: #023D67;
+  padding: 30px 8% 30px 8%;
+  /*margin: 30px 8% 30px 8%;*/
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -65,7 +69,6 @@ footer ul {
 }
 
 .psih {
-  font-size: 2.5em;
   color: #5CD4EC;
   text-align: center;
 }
@@ -104,10 +107,10 @@ footer ul {
 .about p {
   margin: 3% 5% 3% 5%;
   padding: 0 0 0 10%;
-  font-size: 2em;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
   color: white;
+  font-size: 2em;
 }
 
 .about_photo {
@@ -120,7 +123,6 @@ footer ul {
 }
 .about_me p {
   color: #5CD4EC;
-  font-size: 2em;
 }
 
 .about_work {
@@ -192,5 +194,9 @@ footer ul {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     color: white;
+  }
+
+  .about_me p {
+    font-size: 1em;
   }
 }
