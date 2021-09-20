@@ -1,7 +1,4 @@
-div{
-    margin-top: 5%;
-    margin-bottom: 5%;
-}
+
 
 .body{
     margin: 0 0 0 0;
@@ -100,10 +97,15 @@ footer{
     z-index: 2;
 }
 .about_me{
-    border-left: 10px solid #CC4109;
-    padding-left: 1em;
-    p{
+    .right{
+    border-left: 10px solid #5CD4EC;
+    padding-left: 20px;
         color:#5CD4EC;
+    }
+    .left{
+        border-left: 10px solid #CC4109;
+        padding-left: 20px;
+            color:#023D67;
     }
 }
 .about_work{
@@ -133,6 +135,34 @@ footer{
 .prodoctorov{
     margin: 5% 0 0 0;
 }
+.carousel_home{
+    margin-top: 50px;
+    z-index: 100;
+    .item{
+        height: 300px;
+    }
+
+}
+.owl-carousel {
+    position: relative;
+    .owl-item.active  {
+      transform: scale(0.8);
+      background-color:  #03749C;
+      border: 10px solid #D44205;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+      
+    }
+    .owl-item.center  {
+      transform: scale(0.8)
+    }
+    .owl-item.active.center  {
+      transform: scale(1);
+      z-index: 50;
+      background-color:  #15B1D7;
+      border: 10px solid #FD6E12;
+      box-shadow: 0 0 20px rgba(0,0,0,0.5); ;
+    }
+  }
 @media screen and (max-width: 1000px) {
     .about{
         p{
