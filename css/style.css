@@ -140,9 +140,13 @@ footer ul {
           animation-name: bounceInRight;
 }
 .about_me .left {
-  border-left: 10px solid #CC4109;
+  border-left: 10px solid #5CD4EC;
   padding-left: 20px;
   color: #5CD4EC;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-name: bounceInRight;
+          animation-name: bounceInRight;
 }
 .about_me p {
   font-size: 28px;
@@ -190,11 +194,20 @@ footer ul {
 .owl-carousel {
   position: relative;
 }
+.owl-carousel .owl-item {
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+  background-color: #03749C;
+  /*border: 10px solid #D44205;*/
+  text-align: center;
+  color: #023D67;
+  padding: 65px 0 65px 0;
+}
 .owl-carousel .owl-item.active {
   -webkit-transform: scale(0.8);
           transform: scale(0.8);
   background-color: #03749C;
-  border: 10px solid #D44205;
+  /*border: 10px solid #D44205;*/
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
@@ -207,7 +220,7 @@ footer ul {
           transform: scale(1);
   z-index: 50;
   background-color: #15B1D7;
-  border: 10px solid #FD6E12;
+  /*border: 10px solid #FD6E12;*/
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   -webkit-transition: 1s;
@@ -216,8 +229,8 @@ footer ul {
 .owl-carousel .active.center:hover {
   position: relative;
   opacity: 1;
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
   /*вот так*/
 }
 
@@ -227,8 +240,12 @@ footer ul {
   color: white;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 47%;
-  padding-right: 47%;
+  padding-left: 48%;
+  padding-right: 48%;
+}
+
+.owl-prev {
+  font-size: 30px;
 }
 
 @media screen and (max-width: 1000px) {

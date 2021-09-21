@@ -113,9 +113,11 @@ footer{
     animation-name: bounceInRight;
     }
     .left{
-        border-left: 10px solid #CC4109;
+        border-left: 10px solid #5CD4EC;
         padding-left: 20px;
             color:#5CD4EC;
+            animation-duration: 3s; 
+    animation-name: bounceInRight;
     }
     p{
         font-size: 28px;
@@ -158,10 +160,18 @@ footer{
 }
 .owl-carousel {
     position: relative;
+    .owl-item{
+        transform: scale(0.8);
+        background-color:  #03749C;
+        /*border: 10px solid #D44205;*/
+        text-align: center;
+        color: #023D67;
+        padding: 65px 0 65px 0 ;
+    }
     .owl-item.active  {
       transform: scale(0.8);
       background-color:  #03749C;
-      border: 10px solid #D44205;
+      /*border: 10px solid #D44205;*/
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
 
     }
@@ -173,14 +183,14 @@ footer{
       transform: scale(1);
       z-index: 50;
       background-color:  #15B1D7;
-      border: 10px solid #FD6E12;
+      /*border: 10px solid #FD6E12;*/
       box-shadow: 0 0 20px rgba(0,0,0,0.5); ;
       transition: 1s;
     }
     .active.center:hover {
         position: relative;
         opacity: 1;
-        transform: scale(1.1); /*вот так*/
+        transform: scale(1.5); /*вот так*/
     }
   }
  
@@ -190,8 +200,11 @@ footer{
       color: white;
       margin-left: auto;
       margin-right: auto;
-      padding-left: 47%;
-      padding-right: 47%;
+      padding-left: 48%;
+      padding-right: 48%;
+  }
+  .owl-prev{
+      font-size: 30px;
   }
 @media screen and (max-width: 1000px) {
     .about{
