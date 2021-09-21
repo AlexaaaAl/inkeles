@@ -124,6 +124,10 @@ footer ul {
 
 .about_photo {
   z-index: 2;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-name: bounceInRight;
+          animation-name: bounceInRight;
 }
 
 .about_me .right {

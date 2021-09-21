@@ -101,7 +101,8 @@ footer{
 }
 .about_photo{
     z-index: 2;
-
+    animation-duration: 3s; 
+    animation-name: bounceInRight;
 }
 .about_me{
     .right{
