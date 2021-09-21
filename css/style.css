@@ -1,7 +1,7 @@
 @charset "UTF-8";
 .body {
   margin: 0 0 0 0;
-  background-image: #0E2A34;
+  background-color: #0E2A34;
   background-position: center;
   /*background-color: rgb(2, 61, 103);*/
 }
@@ -32,8 +32,11 @@ footer ul {
 }
 
 .header {
+  position: fixed;
+  width: 100%;
+  height: 50px;
   background-color: #023D67;
-  padding: 30px 8% 30px 8%;
+  padding: 10px 8% 10px 8%;
   /*margin: 30px 8% 30px 8%;*/
   display: -webkit-box;
   display: -ms-flexbox;
@@ -55,7 +58,7 @@ footer ul {
 .links li {
   margin: 0 30px 0 0;
   list-style: none;
-  font: 2em sans-serif;
+  font: 28px sans-serif;
   color: #FD6E12;
 }
 
@@ -66,12 +69,20 @@ footer ul {
 .psih {
   color: #5CD4EC;
   text-align: center;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-name: bounceInDown;
+          animation-name: bounceInDown;
 }
 
 .inkeles {
   margin: 0;
   background-color: #03749C;
   padding: 100px 8% 100px 8%;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-name: bounceInLeft;
+          animation-name: bounceInLeft;
   /*height: 450px;*/
   /*width: 100%;*/
 }
@@ -83,29 +94,32 @@ footer ul {
   color: #FD6E12;
 }
 
-.about {
+.about_in {
+  height: 30%;
+}
+
+.about_t {
   margin: 0% 0% 0 -10%;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-name: bounceInRight;
+          animation-name: bounceInRight;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  /*height: 576px;*/
+  height: 576px;
   background-color: #D44205;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-.about img {
-  height: auto;
-  width: 30%;
-  text-shadow: #FD6E12;
-}
-.about p {
-  margin: 3% 5% 3% 5%;
+.about_t p {
+  margin: 0 0 0 0;
   padding: 0 0 0 10%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
   color: white;
-  font-size: 2em;
+  font-size: 28px;
 }
 
 .about_photo {
@@ -116,11 +130,18 @@ footer ul {
   border-left: 10px solid #5CD4EC;
   padding-left: 20px;
   color: #5CD4EC;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-name: bounceInRight;
+          animation-name: bounceInRight;
 }
 .about_me .left {
   border-left: 10px solid #CC4109;
   padding-left: 20px;
-  color: #023D67;
+  color: #5CD4EC;
+}
+.about_me p {
+  font-size: 28px;
 }
 
 .about_work {
@@ -185,11 +206,25 @@ footer ul {
   border: 10px solid #FD6E12;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+.owl-carousel .active.center:hover {
+  position: relative;
+  opacity: 1;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  /*вот так*/
 }
 
-.center:hover {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+.owl-nav {
+  -ms-grid-column-align: center;
+      justify-self: center;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 47%;
+  padding-right: 47%;
 }
 
 @media screen and (max-width: 1000px) {
@@ -233,6 +268,6 @@ footer ul {
   }
 
   .about_me p {
-    font-size: 1em;
+    font-size: 28px;
   }
 }
