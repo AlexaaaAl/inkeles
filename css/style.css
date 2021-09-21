@@ -187,6 +187,11 @@ footer ul {
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
+.center:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
 @media screen and (max-width: 1000px) {
   .about p {
     margin: 3% 5% 3% 5%;
