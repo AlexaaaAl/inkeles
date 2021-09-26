@@ -18,7 +18,7 @@ footer {
 }
 footer ul {
   list-style-type: none;
-  color: #03749C;
+  color: #0E2A34;
 }
 
 .pd_widget_app {
@@ -32,9 +32,10 @@ footer ul {
 }
 
 .header {
+  z-index: 5;
   position: fixed;
   width: 100%;
-  height: 50px;
+  height: 60px;
   background-color: #023D67;
   padding: 10px 8% 10px 8%;
   /*margin: 30px 8% 30px 8%;*/
@@ -60,6 +61,22 @@ footer ul {
   list-style: none;
   font: 28px sans-serif;
   color: #FD6E12;
+}
+.links a:link {
+  color: #FD6E12;
+  text-decoration: none;
+}
+.links a:visited {
+  color: #FD6E12;
+  text-decoration: none;
+}
+.links a:active {
+  color: #FD6E12;
+  text-decoration: none;
+}
+.links a:hover {
+  color: #943900;
+  text-decoration: none;
 }
 
 .content {
@@ -154,7 +171,7 @@ footer ul {
 
 .about_work {
   margin: 0;
-  padding: 20px 10px 10px 10px;
+  padding: 20px 120px 10px 20px;
   background-color: #D44205;
 }
 .about_work svg {
@@ -164,6 +181,8 @@ footer ul {
 }
 .about_work ul {
   list-style: none;
+  margin-left: auto;
+  margin-right: auto;
 }
 .about_work ul li {
   padding-left: 35px;
@@ -172,7 +191,7 @@ footer ul {
   color: white;
 }
 .about_work ul li::before {
-  content: "✔";
+  content: url(../img/svg.svg);
   position: absolute;
   top: 0;
   left: 0;
@@ -290,5 +309,9 @@ footer ul {
 
   .about_me p {
     font-size: 28px;
+  }
+
+  .book {
+    display: none;
   }
 }
