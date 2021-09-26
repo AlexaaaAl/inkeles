@@ -242,6 +242,23 @@ footer{
     .hiden{
         display: none;
     }
+    .inkeles{
+        margin: 0;
+        background-color: #03749C;
+        padding: 100px 8% 100px 8%;
+        animation-duration: 2s; 
+        animation-name: bounceInLeft;
+        /*height: 450px;*/
+        /*width: 100%;*/
+        h2{
+            font: 3.2em sans-serif;
+            color: #023D67;
+        }
+        h3{
+            color: #FD6E12;
+        }
+    
+    }
     .about{
     margin: 0% 0% 0 0;
     align-items: center;
@@ -269,5 +286,26 @@ footer{
     }
     .book{
         display: none;
+    }
+    .about_photo{
+        margin: 0;
+        width: 100%;
+    }
+    .about_t{
+        margin: 0% 0% 0 0%;
+        animation-duration: 3s; 
+        animation-name: bounceInRight;
+        align-items: center;
+        height: 576px;
+        background-color: #D44205;
+        display: flex;
+        p{
+            margin: 0 0 0 0;
+            padding: 0 0 0 0%;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+            color: white;
+            font-size: 22px;
+        }
     }
 }
