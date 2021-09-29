@@ -242,7 +242,7 @@ footer ul {
   /*border: 10px solid #D44205;*/
   text-align: center;
   color: #023D67;
-  padding: 65px 0 65px 0;
+  padding: 65px 10px 65px 10px;
 }
 .owl-carousel .owl-item.active {
   -webkit-transform: scale(0.8);
