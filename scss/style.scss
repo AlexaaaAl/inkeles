@@ -118,8 +118,16 @@ footer{
 }
 .about_photo{
     z-index: 2;
+    max-height: 556px;
+    overflow: hidden;
+    padding: 30px 0 20px 0;
     animation-duration: 3s; 
     animation-name: bounceInRight;
+    img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
 }
 .about_me{
     .right{
