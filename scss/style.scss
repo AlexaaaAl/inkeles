@@ -16,7 +16,7 @@ footer{
     font: 2em sans-serif;
     ul{
         list-style-type: none;
-        color: #03749C;
+        color: #0E2A34;
     }
 }
 .pd_widget_app {
@@ -29,9 +29,10 @@ footer{
     /* box-sizing: content-box; */
 }
 .header{
+    z-index: 5;
     position: fixed;
     width: 100%;
-    height: 50px;
+    height: 60px;
     background-color: #023D67;
     padding: 10px 8% 10px 8%;
     /*margin: 30px 8% 30px 8%;*/
@@ -50,6 +51,22 @@ footer{
         list-style: none;
         font: 28px sans-serif;
         color: #FD6E12;
+    }
+    a:link{
+        color: #FD6E12;
+        text-decoration: none;
+    }
+    a:visited{
+        color: #FD6E12;
+        text-decoration: none;
+    }
+    a:active{
+        color: #FD6E12;
+        text-decoration: none;
+    }
+    a:hover{
+        color: #943900;
+        text-decoration: none;
     }
 }
 .content{
@@ -101,8 +118,16 @@ footer{
 }
 .about_photo{
     z-index: 2;
+    max-height: 556px;
+    overflow: hidden;
+    padding: 30px 0 20px 0;
     animation-duration: 3s; 
     animation-name: bounceInRight;
+    img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
 }
 .about_me{
     .right{
@@ -125,7 +150,7 @@ footer{
 }
 .about_work{
     margin: 0 ;
-    padding: 20px 10px 10px 10px;
+    padding: 20px 120px 10px 20px;
     background-color: #D44205;
     svg{
         margin-top: auto;
@@ -134,6 +159,8 @@ footer{
     }
     ul{
         list-style: none;
+        margin-left: auto;
+        margin-right: auto;
         li{
             padding-left: 35px;
             font-size: 1.5em;
@@ -141,7 +168,7 @@ footer{
             color:white;
         }
         li::before{
-            content: '\2714';
+            content: url(../img/svg.svg);
             position: absolute; top: 0; left: 0;
             color: #5CD4EC;
         }
@@ -223,31 +250,70 @@ footer{
     .hiden{
         display: none;
     }
+    .inkeles{
+        margin: 0;
+        background-color: #03749C;
+        padding: 100px 8% 100px 8%;
+        animation-duration: 2s; 
+        animation-name: bounceInLeft;
+        /*height: 450px;*/
+        /*width: 100%;*/
+        h2{
+            font: 3.2em sans-serif;
+            color: #023D67;
+        }
+        h3{
+            color: #FD6E12;
+        }
     
-.about{
+    }
+    .about{
     margin: 0% 0% 0 0;
     align-items: center;
     /*height: 576px;*/
     background-color: #D44205;
     display: flex;
-
     img{
         height: auto;
         width: 30%;
         text-shadow: #FD6E12;
+        }
+        p{
+            margin: 3% 5% 3% 5%;
+            padding: 0 0 0 10%;
+            font-size: 1em;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+            color: white;
+        }
     }
-    p{
-        margin: 3% 5% 3% 5%;
-        padding: 0 0 0 10%;
-        font-size: 1em;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        text-align: center;
-        color: white;
+    .about_me{
+        p{
+            font-size: 28px;
+        }
     }
-}
-.about_me{
-    p{
-        font-size: 28px;
+    .book{
+        display: none;
     }
-}
+    .about_photo{
+        margin: 0;
+        width: 100%;
+    }
+    .about_t{
+        margin: 0% 0% 0 0%;
+        animation-duration: 3s; 
+        animation-name: bounceInRight;
+        align-items: center;
+        height: 576px;
+        background-color: #D44205;
+        display: flex;
+        p{
+            margin: 0 0 0 0;
+            padding: 0 0 0 0%;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+            color: white;
+            font-size: 22px;
+        }
+    }
 }
