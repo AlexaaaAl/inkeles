@@ -33,6 +33,7 @@ footer ul {
 
 .header {
   z-index: 5;
+  top: 0;
   position: fixed;
   width: 100%;
   height: 60px;
@@ -49,6 +50,14 @@ footer ul {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-shadow: 1px 20px 10px 0px rgba(0, 0, 0, 0.15);
+          box-shadow: 1px 20px 10px 0px rgba(0, 0, 0, 0.15);
+}
+
+.header_fixed {
+  position: fixed;
+  left: 0;
+  top: 0;
 }
 
 .hidden-menu-ticker {
