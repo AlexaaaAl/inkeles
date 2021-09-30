@@ -136,7 +136,7 @@ footer ul {
   -webkit-animation-name: bounceInLeft;
           animation-name: bounceInLeft;
   /*height: 450px;*/
-  /*width: 100%;*/
+  width: 100%;
 }
 .inkeles h2 {
   font: 3.2em sans-serif;
