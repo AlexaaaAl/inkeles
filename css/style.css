@@ -11,7 +11,8 @@ main {
 }
 
 audio {
-  width: 50px;
+  float: right;
+  width: 350px;
   height: 50px;
   border-radius: 100px;
   background-color: #1b1b1b;
