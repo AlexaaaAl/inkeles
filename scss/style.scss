@@ -1,4 +1,13 @@
-
+h3{
+    color:#FD6E12;
+    top: 20px;
+    bottom: 20px;
+}
+.advantages{
+    margin-top: 20px;
+    text-align: center;
+    
+}
 .body{
     margin: 0 0 0 0;
     background-color: #0E2A34;
@@ -212,11 +221,46 @@ footer{
     }
 
 }
+.advantage{
+    text-align: center;
+    fill:#D44205;
+    p{
+        color:#D44205;
+        font-size:28px;
+    }
+}
+.ftelegramim {
+    display: inline-block;
+    font: normal normal normal 14px/1 telegramimfont;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.ftelegramim-telegram-logo:before {
+    content: "\e901";
+}
+.telegramim_button span {
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: normal;
+    color: white;
+}
+.telegramim_button {
+font-size: 29px;
+    width: 25px;
+    background: #023D67;
+    box-shadow: 1px 1px 5px #023D67;
+    color: #FFFFFF;
+    border-radius: 28px;
+    text-decoration: none;
+    padding: 10px;
+}
 .owl-carousel {
     position: relative;
     .owl-item{
         transform: scale(0.8);
-        background-color:  #03749C;
+        /*background-color:  #03749C;*/
         /*border: 10px solid #D44205;*/
         text-align: center;
         color: #023D67;
@@ -224,9 +268,9 @@ footer{
     }
     .owl-item.active  {
       transform: scale(0.8);
-      background-color:  #03749C;
+      /*background-color:  #03749C;*/
       /*border: 10px solid #D44205;*/
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+      /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
 
     }
     .owl-item.center  {
@@ -236,9 +280,9 @@ footer{
     .owl-item.active.center  {
       transform: scale(1);
       z-index: 50;
-      background-color:  #15B1D7;
+     /*background-color:  #15B1D7;*/
       /*border: 10px solid #FD6E12;*/
-      box-shadow: 0 0 20px rgba(0,0,0,0.5); ;
+      /*box-shadow: 0 0 20px rgba(0,0,0,0.5); ;*/
       transition: 1s;
     }
     .active.center:hover {
@@ -248,8 +292,22 @@ footer{
     }
   }
  
- 
-  .owl-nav{
+  .owl-pagination{
+    display: none;
+}
+.customNavigation a{
+color: #fff;
+}
+.customNavigation .btn{
+border-radius: 0;
+background-color: #03749C;
+font-size: 13px;
+padding: 0 6px;
+}
+.owl-carousel .owl-item img{
+margin: 0 auto;
+}
+ /* .owl-nav{
       justify-self: center;
       color: white;
       margin-left: auto;
@@ -259,7 +317,7 @@ footer{
   }
   .owl-prev{
       font-size: 30px;
-  }
+  }*/
 @media screen and (max-width: 1000px) {
     .about{
         p{
