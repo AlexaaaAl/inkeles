@@ -140,7 +140,8 @@ footer ul {
 
 .inkeles {
   margin: 0;
-  background-color: #03749C;
+  background-color: #004862;
+  /*background-color: #03749C;*/
   padding: 100px 8% 100px 8%;
   -webkit-animation-duration: 2s;
           animation-duration: 2s;
@@ -150,8 +151,10 @@ footer ul {
   width: 100%;
 }
 .inkeles h2 {
-  font: 3.2em sans-serif;
-  color: #023D67;
+  font: 7.2em sans-serif;
+  /*color: #023D67;*/
+  color: white;
+  text-transform: uppercase;
 }
 .inkeles h3 {
   color: #FD6E12;
@@ -301,7 +304,6 @@ footer ul {
   -webkit-box-shadow: 1px 1px 5px #023D67;
           box-shadow: 1px 1px 5px #023D67;
   color: #FFFFFF;
-  border-radius: 28px;
   text-decoration: none;
   padding: 10px;
 }
@@ -351,15 +353,36 @@ footer ul {
   display: none;
 }
 
-.customNavigation a {
+.customNavigation {
+  width: 100%;
   color: #fff;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .customNavigation .btn {
   border-radius: 0;
-  background-color: #03749C;
-  font-size: 13px;
+  /*background-color: #03749C;*/
+  font-size: 26px;
   padding: 0 6px;
+  color: white;
+}
+
+.owl-prev, .owl-next {
+  background-color: #D44205;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
 
 .owl-carousel .owl-item img {
@@ -478,7 +501,8 @@ footer ul {
 
   .inkeles {
     margin: 0;
-    background-color: #03749C;
+    background-color: #1f2527;
+    /*background-color: #03749C;*/
     padding: 100px 8% 100px 8%;
     -webkit-animation-duration: 2s;
             animation-duration: 2s;
@@ -488,8 +512,8 @@ footer ul {
     /*width: 100%;*/
   }
   .inkeles h2 {
-    font: 3.2em sans-serif;
-    color: #023D67;
+    font: 5.2em sans-serif;
+    color: white;
   }
   .inkeles h3 {
     color: #FD6E12;
