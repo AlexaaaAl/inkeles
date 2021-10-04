@@ -1,8 +1,19 @@
+p{
+    color: white;
+}
 h3{
-    color:#FD6E12;
+    color:white;
     top: 20px;
     bottom: 20px;
 }
+h5{
+    color: white;
+}
+section{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 .advantages{
     margin-top: 20px;
     text-align: center;
@@ -109,7 +120,7 @@ footer{
     margin: 30px 8% 30px 8%;
 }
 .psih{
-    color: #5CD4EC;
+    color: white;
     text-align: center;
     animation-duration: 2s; 
     animation-name: bounceInDown;
@@ -130,13 +141,17 @@ footer{
         text-transform: uppercase;
     }
     h3{
-        color: #FD6E12;
+        color: white;
     }
 
 }
 .about_in{
     height: 30%;
  
+}
+.card-img-top{
+    height: 250px;
+    object-fit: cover;
 }
 .about_t{
     margin: 0% 0% 0 -10%;
@@ -172,19 +187,19 @@ footer{
     .right{
     border-left: 10px solid #5CD4EC;
     padding-left: 20px;
-        color:#5CD4EC;
+        color:white;
         animation-duration: 3s; 
     animation-name: bounceInRight;
     }
     .left{
         border-left: 10px solid #5CD4EC;
         padding-left: 20px;
-            color:#5CD4EC;
+            color:white;
             animation-duration: 3s; 
     animation-name: bounceInRight;
     }
     p{
-        font-size: 28px;
+        font-size: 20px;
     }
 }
 .about_work{
@@ -433,7 +448,7 @@ margin: 0 auto;
 	}
     .inkeles{
         margin: 0;
-        background-color: #1f2527;
+        background-color: #004862;
         /*background-color: #03749C;*/
         padding: 100px 8% 100px 8%;
         animation-duration: 2s; 

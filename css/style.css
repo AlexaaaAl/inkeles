@@ -1,8 +1,21 @@
 @charset "UTF-8";
+p {
+  color: white;
+}
+
 h3 {
-  color: #FD6E12;
+  color: white;
   top: 20px;
   bottom: 20px;
+}
+
+h5 {
+  color: white;
+}
+
+section {
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .advantages {
@@ -130,7 +143,7 @@ footer ul {
 }
 
 .psih {
-  color: #5CD4EC;
+  color: white;
   text-align: center;
   -webkit-animation-duration: 2s;
           animation-duration: 2s;
@@ -157,11 +170,17 @@ footer ul {
   text-transform: uppercase;
 }
 .inkeles h3 {
-  color: #FD6E12;
+  color: white;
 }
 
 .about_in {
   height: 30%;
+}
+
+.card-img-top {
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .about_t {
@@ -208,7 +227,7 @@ footer ul {
 .about_me .right {
   border-left: 10px solid #5CD4EC;
   padding-left: 20px;
-  color: #5CD4EC;
+  color: white;
   -webkit-animation-duration: 3s;
           animation-duration: 3s;
   -webkit-animation-name: bounceInRight;
@@ -217,14 +236,14 @@ footer ul {
 .about_me .left {
   border-left: 10px solid #5CD4EC;
   padding-left: 20px;
-  color: #5CD4EC;
+  color: white;
   -webkit-animation-duration: 3s;
           animation-duration: 3s;
   -webkit-animation-name: bounceInRight;
           animation-name: bounceInRight;
 }
 .about_me p {
-  font-size: 28px;
+  font-size: 20px;
 }
 
 .about_work {
@@ -501,7 +520,7 @@ footer ul {
 
   .inkeles {
     margin: 0;
-    background-color: #1f2527;
+    background-color: #004862;
     /*background-color: #03749C;*/
     padding: 100px 8% 100px 8%;
     -webkit-animation-duration: 2s;
