@@ -71,14 +71,14 @@ footer{
     position: fixed;
     width: 100%;
     height: 60px;
-    background-color: #023D67;
+    background-color: #004862;
     padding: 10px 8% 10px 8%;
     /*margin: 30px 8% 30px 8%;*/
     display: -webkit-flex; 
     display: flex;      
     flex-direction: row ;
     justify-content:space-between;
-    box-shadow: 1px 20px 10px 0px rgb(0 0 0 / 15%);
+    box-shadow: 1px 20px 10px 0px rgba(0,0,0,0.15);
 
 }
 .header_fixed {
@@ -179,20 +179,20 @@ footer{
     animation-name: bounceInRight;
     img{
         height: 100%;
-        width: 100%;
+        width: 90%;
         object-fit: cover;
     }
 }
 .about_me{
     .right{
-    border-left: 10px solid #5CD4EC;
+    border-left: 10px solid #004862;
     padding-left: 20px;
         color:white;
         animation-duration: 3s; 
     animation-name: bounceInRight;
     }
     .left{
-        border-left: 10px solid #5CD4EC;
+        border-left: 10px solid #004862;
         padding-left: 20px;
             color:white;
             animation-duration: 3s; 
@@ -267,8 +267,8 @@ footer{
 .telegramim_button {
 font-size: 29px;
     width: 25px;
-    background: #023D67;
-    box-shadow: 1px 1px 5px #023D67;
+    background: #004862;
+    box-shadow: 1px 1px 5px #004862;
     color: #FFFFFF;
    
     text-decoration: none;
@@ -329,7 +329,7 @@ padding: 0 6px;
 color: white;
 }
 .owl-prev,.owl-next{
-    background-color: #D44205; 
+    background-color: #0E2A34;
   border: none;
   color: white;
   padding: 10px 20px;
@@ -412,7 +412,7 @@ margin: 0 auto;
 		width: 80vw;
 		/*background: -webkit-linear-gradient(0deg, #211F2A 77%, #FFFFFF 23%);
 		background: linear-gradient(0deg, #211F2A 77%, #FFFFFF 23%);*/
-		background:#023D67e8 ;
+		background:#023D67;
 		height: 100%;
 		top: 0;
 		right: -80vw;
